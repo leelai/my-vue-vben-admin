@@ -97,9 +97,9 @@ jobs:
           git config --local user.email "vbenadmin@163.com"
           git config --local user.name "vbenAdmin"
 
-      - name: Delete gh-pages branch
-        run: |
-          git push origin --delete gh-pages
+      # - name: Delete gh-pages branch
+      #   run: |
+      #     git push origin --delete gh-pages
 
       - name: Build
         run: |
